@@ -40,18 +40,6 @@ Dataset: Kaggle "Telco Customer Churn" saved as `data/telco_churn.csv` (otherwis
 - **Explainability:** SHAP TreeExplainer: global (bar, beeswarm) and per-customer (waterfall).
 - **Business layer:** profit curve under adjustable assumptions (offer cost, lifetime value saved, success rate).
 
-## Results
-Fill in from `artifacts/metrics.json` after training:
-
-| Model | CV ROC-AUC |
-|---|---|
-| Logistic Regression (baseline) | |
-| Random Forest (tuned) | |
-| Gradient Boosting (tuned) | |
-
-Test ROC-AUC / PR-AUC / F1 / top-20% churner capture: _add yours_
-
-Top churn drivers from SHAP: _add 2-3 sentences from your own plots_
 
 ## Deploy (Streamlit Community Cloud, free)
 1. Run `python -m src.train`, then push the whole folder (including `artifacts/`) to a public GitHub repo.
